@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Expense</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="add-row-form">
+        <input type="text" id="dateInput" placeholder="Date">
+        <input type="text" id="expenseInput" placeholder="Expense">
+        <input type="number" id="amountInput" placeholder="Amount">
+        <button onclick="addRow()">Add Row</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
